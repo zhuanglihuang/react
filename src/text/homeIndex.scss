@@ -1,0 +1,82 @@
+.homeIndex{
+    .fivePic{
+        width: 100%;
+    }
+    .sixPic_one{
+        display: flex;
+        // margin-bottom: 2rem;
+      .fivePicTop{
+          width: 50%;
+          div{
+              width: 47%;
+          }
+          aside{
+              width: 45%;
+              height: 120px;
+          }
+      }
+    }
+    .fivePicTop{
+        display: flex;
+        margin-bottom:0.8rem;
+        div{
+            width: 25%;
+            height: 100px;
+            margin-right:10px;
+            img{
+                width: 100%;
+            }
+        }
+        aside{
+            width: 74%;
+            height: 120px;
+            .lineClampLine{
+                height: 3.8rem;
+                margin-bottom: 0.3rem;
+            }
+        }
+        .lastPart{
+            margin: 0;
+            span{
+                // width:20%;
+                padding:0 .2rem;
+                border:1px solid #969fa9;
+                display: inline-block;
+                text-align: center;
+                border-radius: 5px;
+                &:nth-child(1){
+                    width:65%;
+                    border: 0;
+                    text-align: left;
+                }
+                &:nth-child(2){
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+    section{
+        display: flex;
+        // margin-top: 10px;
+        div{
+            width: 23.5%;
+            margin-left: 2%;
+            // &:last-child{
+            //     margin-left: 0;
+            // }
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .dobulePic{
+        flex-wrap: wrap;
+        margin-top: 0;
+        div{
+            margin-top:10px;
+        }
+    }
+    .nomarginLef{
+        margin-left:0 
+    }
+}

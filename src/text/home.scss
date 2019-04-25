@@ -1,0 +1,26 @@
+.clearfix:after{display:block;clear:both;content:"";visibility:hidden;height:0} 
+.homePage{
+    .positionFix{
+        // position: fixed;
+    }
+    .smallPic{
+        // position: fixed;
+        // top:10px;
+        // margin-bottom: 30px;
+        .swiper-slide{
+            height: 2rem;
+            line-height: 2rem;
+            border-radius:50%;
+            color: grey;
+            text-align: center;
+
+        }
+        .swiper-slide-thumb-active{
+            background: blue;
+            color: #fff;
+        }
+    }
+    .vip{
+        // margin-top: 4rem;.
+    }
+}

@@ -1,0 +1,29 @@
+.demoChild{
+    .title{
+        margin: 0;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        font-weight: bold;
+        color: #474C55;
+    }
+    .morePic{
+        display: flex;
+        .swiper-container{
+            width: 100%;
+            height: 100%;
+        }
+        .swiper-wrapper{
+            width: 25%;
+            margin-left: 5px;
+        }
+        .swiper-slide {
+          }
+    }
+    &:after{
+        content: "";
+        display: block;
+        width:100%;
+        border-top: 1px solid #f0f0f0;
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,104 @@
+.mingpiang{
+    p{
+        margin: 0;
+    }
+    margin-top: 30px;
+    h2{
+        color:rgb(85,121,122);
+        font-size: 25px;
+        // font-weight: 300;
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 0;
+        // text-align: left;
+    }
+    .name{
+        // display: flex;
+        &:first-of-type{
+            color:rgb(85,121,122);
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+            font-weight: 500;
+            width: 100%;
+            span{
+            // margin-left: 100px;
+            }
+        }
+        h2{
+            text-align: left
+        }
+        .name_tel{
+            width: 60%;
+        }
+    }
+    .text_all{
+        // background: url('../public/left.png') no-repeat;
+        // background-size: cover;\
+        // text-align: left;
+        padding: 10px 30px;
+        width: 80%;
+        position: relative;
+        .left{
+            background: url('../public/left (2).png') no-repeat;
+            background-size: cover;
+            position: absolute;
+            top:0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .text{
+        
+      .text_title{
+        //   text-align: center;
+          width: 80%;
+          color:rgb(85,121,122);
+          font-size: 15px;
+          margin-top: 2px;
+          margin-bottom: 2px;
+      }
+      .text_detail{
+          font-size: 20px;
+          color: grey;
+      }
+    }
+}
+// 登入
+.loginPart{
+    width: 80%;
+    margin: 10% auto;
+    text-align: center;
+    .logoinImg{
+        width: 80%;
+        margin:0 auto;
+    }
+    .sectionPart{
+        margin-top: 50px;
+        input{
+            width: 100%;
+            height: 100%;
+            font-size: 20px;
+            outline:none;
+            border: 0;
+            border-bottom: 1px solid #1296db;
+            margin-bottom:20px;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+        .login{
+            width: 100%;
+            border-radius: 25px;
+            background-color: #1296db;
+            display: inline-block;
+            height: 40px;
+            line-height: 40px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            margin-top: 20px;
+            letter-spacing:5px;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.demo_bookDetail{
+    .demo_bookDetail_part{
+        display: flex;
+        // margin: 1rem 1rem 0rem 1rem;
+        p{
+            margin: 0;padding: 0;
+            margin-bottom: 0.5rem;
+            text-align: left;
+            img{
+                width:1rem;
+            }
+        }
+        aside{
+            h4{
+                margin: 0;
+                margin-bottom: 1rem;
+                font-size:1rem;
+                font-weight: bold;
+                color: #000;
+            }
+        }
+        div{
+            width: 25%;
+            margin-right: 0.5rem;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .demo_bookDetail_partTwo{
+        margin: 0.5rem 0;
+        width: 100%;
+        word-break:break-all;
+        display:-webkit-box;
+        -webkit-line-clamp:3;
+        -webkit-box-orient: vertical;//react解析出来的css样式中没有,
+        overflow:hidden;
+        line-height: 1.5rem
+    }
+    .maxHeight{
+        -webkit-line-clamp:18;
+
+    }
+    .demo_bookDetail_partThree{
+        
+    }
+    .demo_bookDetail_partFour{
+        img{
+            width: 100%;
+            height:3rem ;
+        }
+    }
+}

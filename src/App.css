@@ -1,0 +1,75 @@
+.App {
+  /* text-align: center; */
+  padding: 1rem 1rem 0rem 1rem;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  font-size: 5px;
+  font-weight: 100;
+  color: grey;
+}
+.tilte{
+  margin:1rem 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #474C55;
+}
+.showLine::after{
+    content: "";
+    display: block;
+    width:100%;
+    border-top: 1px solid #f0f0f0;
+    margin-top: 20px;
+}
+/* 溢出隐藏。。。。 */
+.showMore{
+  font-size: 15px;
+  color: #464C56;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  margin: 0;
+}
+.lineClamp{
+  width: 100%;
+  word-break:break-all;
+  display:-webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient: vertical;
+  overflow:hidden;
+  line-height: 1.2rem;
+  font-size: 0.5rem;
+}
+.smallFont{
+  font-size: 5px;
+}
